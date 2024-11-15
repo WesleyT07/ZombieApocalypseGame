@@ -1,0 +1,30 @@
+# Unit Testing The Game Mechanics
+
+## Movement Mechanics
+
+- Player will be able to move diagonally and straight in all 4 directions using w, a, s, d
+- The player should not be able to walk off screen, instead being blocked by borders.
+-They should also not be able to touch enemies without losing
+- If the player moves into a power up, they recieve the power up. They should be able to walk through it.
+
+## Fighting Mechanic
+
+- The player will use the space bar to defend themselves. Pressing space will result in firing a shot from the player that wil destroy any enemy it touches along it's straight path till running off the screen and despawning. It cannot be blocked or change its trajectory in any way and will fire in the direction that the player was facing when they pressed space.
+
+## High Scores
+
+- The player should get a passive increase of their hghscore based on their survival, +100 for each second. If the player kills a zombie, it is a +500. Must ensure that score adds up correctly and will match the score with the user the player inputs at the start 
+- Ensure Highscore will be remembered after game is done and then added into the list of highscores in order of highest number
+
+### Possible errors
+
+- Key presses have no lag or they could result in a loss late in the game.
+- The hit boxes for the player's shots or the zombies be correctly matching or they could miss shots or be destroyed before they were supposed to be
+- Invalid input should be handled by following the first key pressed. If a key that does not have an input is pressed, nothing should happen
+- If the player is hit by their own shot due to a power up, they should not be killed by themselves
+- If the player loses the game, the screen should change to show the death screen
+
+### Error handling with many entities
+
+- When there are many enemies or the player fires many shots, ensure accuracy of both
+- When
