@@ -1,10 +1,10 @@
 # Requirements Specification: Zombie Apocalypse
 - Game Name: Zombie Apocalypse
 - Team Members: Wesley, Catelyn
-- Client: someone
+- Client: Kennedy
 - Date: 11/14
 ## Overview
-A fixed screen shooter, the player will be able to shoot one enemy a second, protecting themselves from zombies scrolling down from the top. When the player is touched, the player loses. The player cannot win. Main goal to stay alive as long as possible, highscore is collected with amounting time spent alive and killing zombies.
+A fixed screen shooter, the player will be able to shoot one enemy a second, protecting themselves from zombies scrolling down from the top. When the player is touched, the player loses. The player cannot win. Main goal to stay alive as long as possible, highscore is collected with amounting time spent alive and destroying zombies.
 
 ## Functional Requirements
 ### Core Features 
