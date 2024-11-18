@@ -18,5 +18,5 @@ This is a zombie-themed game based on Space Invaders. You are placed in an apoca
 - **Objective**: Destroy all of the zombies and collect powerups to level up and collect characters.
 
 ## **Credits**
-- Developed by Wesley and Catelyn Close
+- Developed by Wesley Thomas and Catelyn Close
   
