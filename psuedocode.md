@@ -1,10 +1,12 @@
 #Start Game
+
 DISPLAY "Title Screen"
 DISPLAY "Start Button"
 IF Start Button is CLICKED THEN
     SWITCH TO "Playing Screen"
     DISPLAY Score, Instructions, and Menu Button
 END IF
+
 #In-game logic
 WHILE Game is Running DO
     SPAWN Enemies on Screen
@@ -28,7 +30,9 @@ WHILE Game is Running DO
         RESTART Level
     END IF
 END WHILE
+
 #Character selection menu
+
 DISPLAY "Character Selection Button" on Startup Menu
 IF Character Selection Button is CLICKED THEN
     DISPLAY Character Options
@@ -40,7 +44,9 @@ IF Character Selection Button is CLICKED THEN
         DISPLAY "Character Locked"
     END IF
 END IF
+
 #Pause game
+
 DISPLAY "Menu Button" at Top Left Corner
 IF Menu Button is CLICKED THEN
     PAUSE Game
@@ -52,4 +58,5 @@ IF Menu Button is CLICKED THEN
         SWITCH TO "Main Menu"
     END IF
 END IF
+
 END Game
