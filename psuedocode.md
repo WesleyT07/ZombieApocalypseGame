@@ -1,4 +1,4 @@
-# START Game
+#Start Game
 
 DISPLAY "Title Screen"
 DISPLAY "Start Button"
@@ -7,7 +7,7 @@ IF Start Button is CLICKED THEN
     DISPLAY Score, Instructions, and Menu Button
 END IF
 
-# In-game logic
+#In-game logic
 
 WHILE Game is Running DO
     SPAWN Enemies on Screen
@@ -37,7 +37,7 @@ WHILE Game is Running DO
     END IF
 END WHILE
 
-# Character selection menu
+#Character selection menu
 
 DISPLAY "Character Selection Button" on Startup Menu
 IF Character Selection Button is CLICKED THEN
@@ -51,7 +51,7 @@ IF Character Selection Button is CLICKED THEN
     END IF
 END IF
 
-# Pause game
+#Pause game
 
 DISPLAY "Menu Button" at Top Left Corner
 IF Menu Button is CLICKED THEN
