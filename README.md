@@ -4,9 +4,9 @@
 This is a zombie-themed game based on Space Invaders. You are placed in an apocalyptic setting with a goal of destroying as many zombies as you can. As you progress, you will unlock harder levels and new characters.
 
 ## **Installation Instructions**
-- Download or clone repository
-- open game folder
-- Open ZombieApocalypse.html file to play game in web browser
+1. Download or clone repository
+2. open game folder
+3. Open ZombieApocalypse.html file to play game in web browser
 
 ## **Controls**
 - **W**: Moves character toward the top of the screen
